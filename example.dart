@@ -6,7 +6,7 @@ can perform an action when we require it.
 
 */
 typedef Callback = int Function(int t);
-
+//also we can write the above one like this ===> typedef int Callback (int t);
 // why we used typedef to create call backs if we can also take that work s
 // simply by defining that function type like this function(int) callback
 class Button {
