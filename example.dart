@@ -1,3 +1,10 @@
+
+/*
+Callback:
+If we go by definition, the Callback is a function or a method which we pass as an argument into another function or method and 
+can perform an action when we require it.
+
+*/
 typedef Callback = int Function(int t);
 
 // why we used typedef to create call backs if we can also take that work s
